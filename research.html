@@ -70,38 +70,46 @@
                     <!-- <hr class="light"> -->
                     <h2 style="font-style: italic">Swell Case Study<h2>
                     <h4>THE PROBLEM</h4>
-                    <p class="text-faded" style="font-size: small">
-                    Real-time stress detection is vital for timely mental health and chronic disease interventions. Current approaches aresubjective, slow, and miss acute episodes. An objective, data-driven tool to measure stress instantly is needed. </p>
-                    <h4>SOLUTION</h4>
-                    <p class="text-faded" style="font-size: small">
-                    This case study tested whether HRV features from the Swell dataset (SDNN, RMSSD, LF/HF ratio) can predict stress. We trained Logistic Regression, K-Nearest Neighbors, and Decision Tree models. 
-                    </p>
-                    <h4>SCOPE</h4>
-                    <p class="text-faded" style="font-size: small">
-                    Data Source: Swell dataset of ECG-derived HRV readings labeled for stress state
-                    Features: Time-domain (SDNN, RMSSD), frequency-domain (LF, HF power, LF/HF ratio), non-linear metrics
-                    Algorithms Tested:
-                        Logistic Regression
-                        K-Nearest Neighbors (KNN)
-                        Decision Tree
-                    Evaluation Metrics: Accuracy, precision (both 99% at optimal threshold), recall, F1-score
-                    Limitations:
-                        Only shallow models—no deep-learning or ensemble methods yet
-                        Single dataset—requires cross-population validation
-                        Real-world noise and motion artifacts untested
-                    </p>
-                    <h4>TARGET USERS</h4>
-                    <p class="text-faded" style="font-size: small">
-                    Who are we trying to target and why?
-                    </p>
-                    <ul class="text-faded" style="font-size: small">
-                        <li>
-                            <h5>High-pressure professionals (finance, tech, healthcare)
-                                Corporate wellness programs aiming at proactive stress management.
-                                Wellness enthusiasts seeking biofeedback.
-                                University students under exam stress.
-                        </li>
-                    </ul> 
+<ul class="text-faded" style="font-size: small">
+  <li>Real-time stress monitoring is crucial for mental-health and chronic-disease interventions</li>
+  <li>Existing methods (surveys, self-reports, observations) are subjective, slow, and miss acute spikes</li>
+</ul>
+
+<h4>SOLUTION</h4>
+<ul class="text-faded" style="font-size: small">
+  <li>Case study evaluates HRV features (SDNN, RMSSD, LF/HF) from the Swell dataset</li>
+  <li>Trained Logistic Regression, K-Nearest Neighbors, and Decision Tree models</li>
+</ul>
+
+<h4>SCOPE</h4>
+<ul class="text-faded" style="font-size: small">
+  <li><strong>Data:</strong> Swell ECG-derived HRV readings labeled for stress</li>
+  <li><strong>Features:</strong>
+    <ul>
+      <li>Time-domain: SDNN, RMSSD</li>
+      <li>Frequency-domain: LF, HF power, LF/HF ratio</li>
+      <li>Non-linear metrics</li>
+    </ul>
+  </li>
+  <li><strong>Models:</strong> Logistic Regression; KNN; Decision Tree</li>
+  <li><strong>Metrics:</strong> Accuracy & precision (99%), recall, F1-score</li>
+  <li><strong>Limitations:</strong>
+    <ul>
+      <li>Only shallow models tested</li>
+      <li>Single dataset—needs broader validation</li>
+      <li>Real-world noise/artifacts untested</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>TARGET USERS</h4>
+<ul class="text-faded" style="font-size: small">
+  <li>High-pressure professionals (finance, tech, healthcare)</li>
+  <li>Corporate wellness & stress-management programs</li>
+  <li>Biofeedback & wellness enthusiasts</li>
+  <li>University students under exam stress</li>
+</ul>
+
                    <a href="https://github.com/esemsc-db24/NewRytm" class="btn btn-primary btn-xl page-scroll" target="_blank">Github Repository</a>
                 </div>
                 <div class="col-lg-4 text-center" style="padding-top: 100px">
