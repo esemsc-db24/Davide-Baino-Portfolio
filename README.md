@@ -1,5 +1,5 @@
 # anubhavgupta.github.io
-Portfolio for Anubhav Gupta
+Portfolio for Davide Baino
 
 Based on the template from start bootstrap
 http://startbootstrap.com/template-overviews/creative/
